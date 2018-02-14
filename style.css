@@ -16,7 +16,7 @@ html{
     font-size:26px;
     color:#c71585;
     text-align: center;
-    margin:20px;
+    margin:20px 0px 20px 0px;
 }
 .container h2{
     font-size:24px;
@@ -42,10 +42,10 @@ html{
 }
 
 @media(max-width:768px){
-    .box {
+    .photo {
      height:250px;
     }
-     .container{   
+    .container{   
     flex-direction:column;
     }
 }
